@@ -2,6 +2,7 @@ import portfolioImg from "../assets/images/animated_portfolio.png";
 import todoImg from "../assets/images/to_do.png";
 import landingImg from "../assets/images/landing_page.png";
 import WeatherAppImg from "../assets/images/WeatherApp.png";
+import PortfolioImg from "../assets/images/Portfolio.png";
 
 export const projects = [
   {
@@ -43,13 +44,13 @@ export const projects = [
   },
   {
     id: 5,
-    title: "To-Do List",
+    title: "Portfolio",
     description:
-      "A task management app built with HTML, CSS, and JavaScript.",
-    image: todoImg,
+      "Built using HTML,JavaScript,CSS,and ReactJS for an interactive, responsive experience.",
+    image: PortfolioImg,
     reviewLink:
-      "https://todo-list-mx52vkfrp-abhishekkumar2004s-projects.vercel.app/",
-    codeLink: "https://github.com/Abhishekkumar2004/TODO_LIST",
+      "https://portfolio-git-main-abhishekkumar2004s-projects.vercel.app/",
+    codeLink: "https://github.com/Abhishekkumar2004/Portfolio",
   },
   {
     id: 6,
