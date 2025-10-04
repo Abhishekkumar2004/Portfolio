@@ -13,7 +13,12 @@ const Header = () => {
           </a>
         </div>
 
-        <div className="navItem" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+        <div
+          className="navItem"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="200"
+        >
           <ul>
             {navLinks.map((link, idx) => (
               <li
@@ -28,7 +33,12 @@ const Header = () => {
           </ul>
         </div>
 
-        <div className="rightNav" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400">
+        <div
+          className="rightNav"
+          data-aos="fade-left"
+          data-aos-duration="1000"
+          data-aos-delay="400"
+        >
           <a href={resumePDF} download>
             Download Resume
           </a>

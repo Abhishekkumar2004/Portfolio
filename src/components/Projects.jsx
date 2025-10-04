@@ -9,7 +9,9 @@ const Projects = () => {
       data-aos="fade-up"
       data-aos-duration="1000"
     >
-      <h2 data-aos="fade-down" data-aos-duration="1000">Projects</h2>
+      <h2 data-aos="fade-down" data-aos-duration="1000">
+        Projects
+      </h2>
       <div className="cards">
         {projects.map((project, idx) => (
           <article
@@ -26,7 +28,11 @@ const Projects = () => {
             <p data-aos="fade-up" data-aos-delay={200 * (idx + 2)}>
               {project.description}
             </p>
-            <div className="cardbtn" data-aos="fade-up" data-aos-delay={200 * (idx + 3)}>
+            <div
+              className="cardbtn"
+              data-aos="fade-up"
+              data-aos-delay={200 * (idx + 3)}
+            >
               <div className="leftbtn">
                 <a href={project.reviewLink} target="_blank" rel="noreferrer">
                   Review
