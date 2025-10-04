@@ -1,5 +1,5 @@
 import React from "react";
-import { navLinks } from "../data/nav";
+import { navLinks } from "../Data/nav";
 import logo from "../assets/images/logo.png";
 import resumePDF from "../assets/Abhishek Kumar (Updated).pdf";
 
