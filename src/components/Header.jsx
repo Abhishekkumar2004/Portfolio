@@ -1,7 +1,7 @@
 import React from "react";
 import { navLinks } from "../Data/nav";
 import logo from "../assets/images/logo.png";
-import resumePDF from "../assets/Abhishek Kumar (Updated).pdf";
+import resumePDF from "../assets/AbhishekKumar(Resume).pdf";
 
 const Header = () => {
   return (
