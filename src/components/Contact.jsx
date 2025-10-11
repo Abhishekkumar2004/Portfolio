@@ -115,6 +115,7 @@ const Contact = () => {
               value={formData.name}
               onChange={handleChange}
               required
+              autoComplete="name"
             />
 
             <label htmlFor="email">E-Mail:</label>
@@ -125,6 +126,7 @@ const Contact = () => {
               value={formData.email}
               onChange={handleChange}
               required
+              autoComplete="email"
             />
 
             <label htmlFor="phone">Phone:</label>
@@ -135,6 +137,7 @@ const Contact = () => {
               value={formData.phone}
               onChange={handleChange}
               required
+              autoComplete="phone"
             />
 
             <label htmlFor="address">Address:</label>
@@ -145,6 +148,7 @@ const Contact = () => {
               value={formData.address}
               onChange={handleChange}
               required
+              autoComplete="address"
             />
 
             <label htmlFor="query">Query:</label>
@@ -154,6 +158,7 @@ const Contact = () => {
               value={formData.query}
               onChange={handleChange}
               required
+              autoComplete="query"
             ></textarea>
 
             <button

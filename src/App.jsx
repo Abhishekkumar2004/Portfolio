@@ -10,6 +10,7 @@ import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import Background from "./components/background/BackgroundGlow";
 
 function App() {
   useEffect(() => {
@@ -21,6 +22,7 @@ function App() {
 
   return (
     <div className="container">
+      <Background />
       <Header />
       <main id="home">
         <Hero />

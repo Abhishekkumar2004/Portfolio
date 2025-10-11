@@ -1,0 +1,15 @@
+.background-glow {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background-image: radial-gradient(circle farthest-corner at 50% 50%,
+            #bbb 10%,
+            transparent 70%);
+    filter: blur(70px);
+    pointer-events: none;
+    z-index: -1;
+    transform: translate3d(50vw, 50vh, 0);
+}

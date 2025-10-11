@@ -14,6 +14,8 @@ body {
     width: 100%;
     font-family: Arial, sans-serif;
     line-height: 1.6;
+    background: linear-gradient(#0f2027, #203a43, #2c5364);
+    color: white;
 }
 
 /*---------------NavBar---------------------*/
@@ -32,6 +34,7 @@ nav {
 .logo a img {
     height: 50px;
     width: 100px;
+    color: white;
 }
 
 .navItem ul {
@@ -49,7 +52,7 @@ nav {
 .navItem ul li a {
     text-decoration: none;
     font-size: 1.2rem;
-    color: gray;
+    color: white;
     transition: color 0.3s;
 }
 
@@ -101,7 +104,7 @@ main {
 .mainLeft p {
     font-size: 1.2rem;
     margin-top: 20px;
-    color: #555;
+    color: white;
 }
 
 hr {
@@ -152,8 +155,9 @@ hr {
 .mainRight img {
     max-width: 100%;
     height: 420px;
-    transition: all 0.5s ease;
     border-radius: 20px;
+    transition: all 1s ease-out;
+    box-shadow: 10px 10px 10px 0.5;
 }
 
 .mainRight img:hover {
@@ -208,7 +212,6 @@ hr {
 .experienceSection h2 {
     font-size: 2rem;
     font-weight: bold;
-    color: #333;
     margin-bottom: 30px;
 }
 
@@ -218,7 +221,7 @@ hr {
     gap: 2rem;
     margin-bottom: 30px;
     flex-wrap: wrap;
-    background: #f9f9f9;
+    background: linear-gradient(#232526, #414345);
     padding: 20px;
     border-radius: 15px;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
@@ -259,13 +262,13 @@ hr {
 
 .rightItem h3 {
     font-size: 1rem;
-    color: gray;
+    color: white;
     margin-bottom: 5px;
 }
 
 .rightItem p {
     font-size: 1rem;
-    color: #555;
+    color: white;
     margin-bottom: 5px;
 }
 
@@ -310,7 +313,7 @@ hr {
     flex: 1 1 300px;
     border-radius: 10px;
     padding: 1rem;
-    background: #f9f9f9;
+    background: linear-gradient(#000000, #434343);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -382,7 +385,7 @@ hr {
 .skillSection h2 {
     font-size: 2rem;
     font-weight: bold;
-    color: #333;
+    color: white;
     margin-bottom: 30px;
 }
 
@@ -395,7 +398,7 @@ hr {
 }
 
 .skillItem {
-    background: #f9f9f9;
+    background: linear-gradient(#141e30, #243b55);
     padding: 20px;
     border-radius: 15px;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
@@ -418,7 +421,7 @@ hr {
 
 .skillRight h2 {
     font-size: 1.2rem;
-    color: #555;
+    color: white;
     margin-top: 10px;
 }
 
@@ -448,8 +451,9 @@ hr {
 }
 
 .contactLeft img {
-    width: 100%;
-    height: 100%;
+    margin-top: 80px;
+    width: 80%;
+    height: 80%;
     object-fit: cover;
     border-radius: 20px;
 }
@@ -458,7 +462,7 @@ hr {
     text-align: center;
     font-size: 1.5rem;
     font-weight: bold;
-    color: gray;
+    color: black;
 }
 
 form {
@@ -468,7 +472,7 @@ form {
 label {
     font-size: 1rem;
     font-weight: bold;
-    color: gray;
+    color: white;
     display: block;
     margin-top: 5px;
 }
@@ -516,7 +520,7 @@ textarea {
 /*------------------Footer------------------------*/
 footer {
     padding: 2rem 5rem;
-    background: #f5f5f5;
+    background: linear-gradient(#536976, #292e49);
     margin-top: 50px;
 }
 
@@ -531,7 +535,7 @@ footer {
 .footLeft h3 {
     font-size: 2rem;
     font-weight: bold;
-    color: gray;
+    color: black;
 }
 
 .footRight button {
@@ -563,7 +567,7 @@ footer {
 
 .socialicons a {
     font-size: 1.8rem;
-    color: gray;
+    color: white;
     transition: color 0.3s ease, transform 0.3s ease;
 }
 
