@@ -223,7 +223,7 @@ export default function HomeDashboard() {
                 {/* Snapshot row */}
                 <div className="text-xs font-mono text-gray-400 border-l border-primary/40 pl-3 py-1 space-y-1">
                   <div>• Jr. Frontend Engineer </div>
-                  <div className="text-[10px] text-muted">2023 — 2024</div>
+                  <div className="text-[10px] text-muted">NA</div>
                 </div>
               </div>
 
