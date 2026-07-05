@@ -1,5 +1,5 @@
 // @ts-ignore
-import resumePdf from '../assets/ResumeUpdated.pdf';
+import resumePdf from '../assets/Resume.pdf';
 import { PERSONAL_INFO } from '../data/portfolio';
 
 export function downloadResume() {
