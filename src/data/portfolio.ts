@@ -15,6 +15,9 @@ import LandingPage_1 from '../assets/images/LandingPage_1.png';
 import LandingPage_2 from '../assets/images/LandingPage_2.png';
 import LandingPage_3 from '../assets/images/LandingPage_3.png';
 import LandingPage_4 from '../assets/images/LandingPage_4.png';
+import Dashboard from'../assets/images/Dashboard.jpg';
+import Register from '../assets/images/Register.jpg';
+import Login from '../assets/images/Login.jpg';
 
 export const PERSONAL_INFO = {
   name: 'Abhishek Kumar',
@@ -64,6 +67,43 @@ export const SKILLS: Skill[] = [
 ];
 
 export const PROJECTS: Project[] = [
+  {
+  id: 'Task Manager Web Application',
+  title: 'Task Manager Web Application',
+  subtitle: 'Secure and Efficient Task Management',
+  description: 'A full-stack task management web application designed to help users create, manage, update, and organize their daily tasks through a clean and responsive interface with secure user authentication.',
+  longDescription: 'This task manager web application provides users with a simple and efficient way to manage their tasks. Users can create an account, securely log in, create new tasks, update task details, mark tasks as completed, and delete tasks. The application uses JWT-based authentication with HTTP-only cookies to protect user sessions and ensures that users can access only their own tasks.',
+  techStack: [
+    'ReactJS',
+    'JavaScript',
+    'Tailwind CSS',
+    'Node.js',
+    'Express.js',
+    'MongoDB',
+    'Mongoose',
+    'JWT',
+    'Axios'
+  ],
+  features: [
+    'Secure Authentication: User registration and login with encrypted passwords and JWT-based authentication using HTTP-only cookies.',
+    'Task Management: Create, view, update, complete, and delete tasks through an intuitive dashboard.',
+    'Protected Routes: Authentication middleware protects user-specific routes from unauthorized access.',
+    'User-Specific Tasks: Each user can access and manage only their own tasks.',
+    'Task Statistics: Dashboard displays total, completed, and pending tasks along with completion progress.',
+    'Responsive Design: Fully responsive interface optimized for desktop, tablet, and mobile devices.'
+  ],
+  challenges: 'Managing authentication securely between the React frontend and Express backend while ensuring that each user can access only their own tasks was one of the main challenges.',
+  solutions: 'Implemented JWT authentication using HTTP-only cookies, authentication middleware for protected API routes, bcrypt for password hashing, and MongoDB with Mongoose for persistent data storage. Axios was configured with credentials support for secure frontend-backend communication.',
+  lessonsLearned: 'Building this application strengthened my understanding of full-stack development, authentication, REST API design, MongoDB, protected routes, and frontend-backend communication. It also improved my understanding of secure cookie-based authentication and user-specific data access.',
+  githubUrl: 'https://github.com/Abhishekkumar2004/TaskManager',
+  liveUrl: 'https://task-manager-exex.vercel.app/log-in',
+  image: Dashboard,
+  gallery: [
+    Dashboard,
+    Register,
+    Login
+  ]
+},
   {
     id: 'E-commerce Web Application',
     title: 'E-commerce Web Application',
