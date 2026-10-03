@@ -96,7 +96,7 @@ export const PROJECTS: Project[] = [
   solutions: 'Implemented JWT authentication using HTTP-only cookies, authentication middleware for protected API routes, bcrypt for password hashing, and MongoDB with Mongoose for persistent data storage. Axios was configured with credentials support for secure frontend-backend communication.',
   lessonsLearned: 'Building this application strengthened my understanding of full-stack development, authentication, REST API design, MongoDB, protected routes, and frontend-backend communication. It also improved my understanding of secure cookie-based authentication and user-specific data access.',
   githubUrl: 'https://github.com/Abhishekkumar2004/TaskManager',
-  liveUrl: 'https://task-manager-exex.vercel.app/log-in',
+  liveUrl: 'https://task-manager-exex.vercel.app',
   image: Dashboard,
   gallery: [
     Dashboard,
